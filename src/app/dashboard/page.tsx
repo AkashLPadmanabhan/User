@@ -12,8 +12,8 @@ export default async function Dashboard() {
   if (!user) return <div>Not signed in</div>;
 
   return (
-    <div className='ml-20 text-white mt-10'>
-      <h1 className="text-4xl text-white font-bold mb-10">
+    <div className='ml-20 text-white mt-20'>
+      <h1 className="text-4xl text-white font-bold mt-20">
         <span className={`${comfortaa.className}`}>Hello</span> <span className={`text-5xl ${exo2.className} bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-500`}>{user?.firstName}</span>
       </h1>
     </div>

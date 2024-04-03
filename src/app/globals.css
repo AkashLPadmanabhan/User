@@ -5,7 +5,7 @@
 
 
 html {
-  @apply bg-custom-background bg-cover bg-no-repeat;
+  @apply bg-custom-background bg-cover bg-no-repeat bg-fixed;
   min-height: 100%;
 }
 
@@ -13,3 +13,10 @@ body {
   @apply bg-transparent;
   min-height: 100vh; /* This ensures that the body is at least the height of the viewport */
 }
+
+.border-gradient {
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right, indigo, cyan);
+}
+

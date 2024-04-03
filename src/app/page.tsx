@@ -5,7 +5,7 @@ const comfortaa = Comfortaa({ subsets: ['latin'], weight: '400' });
 
 export default function Home() {
   return (
-    <div className="ml-20 text-white mt-10">
+    <div className="ml-20 text-white mt-20">
       <h1 className="text-4xl font-bold mb-10">
        <span className={`${comfortaa.className}`}>Welcome to</span> <span className={`text-5xl ${exo2.className} bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-500`}>Clerk Auth</span>
       </h1>
