@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import gemini from "../../../public/images/gemini.jpeg";
+import gemini from '../../../public/images/gemini.jpeg'
 
 const Blog = () => {
   return (
@@ -43,12 +43,4 @@ assisting with homework. In customer service, it powers chatbots that offer inst
  For content creators, ChatGPT is a co-writer, generating ideas, drafting articles, and even writing code. 
  Its ability to understand context and generate relevant, nuanced responses makes it an invaluable tool 
  across these domains. Additionally, ChatGPT is being used in more creative applications,
-  from composing music to generating artwork, showcasing its versatility and potential to inspire innovation.
-
-
-ChatGPT represents a significant leap forward in the field of artificial intelligence, offering a glimpse into a 
-future where AI can understand and respond to human language with unprecedented depth and relevance. 
-Its wide range of applications demonstrates not only its versatility but also its potential to transform 
-industries and enhance human productivity and creativity. As we continue to explore the depths of ChatGPT,
- it becomes clear that conversing with AI is no longer a novelty but a necessity, pushing the boundaries of
-  what we believe machines are capable of understanding and creating. `
+  from composing music to generating artwork, showcasing its versatility and potential to inspire innovation. `
